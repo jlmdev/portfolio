@@ -43,7 +43,7 @@ function App() {
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
+                        <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -80,8 +80,8 @@ function App() {
                     <div className="col-xl-8 col-lg-7"><img className="img-fluid mb-3 mb-lg-0" src={inventoryApp} alt="" /></div>
                     <div className="col-xl-4 col-lg-5">
                         <div className="featured-text text-center text-lg-left">
-                            <h4>Inventory App</h4>
-                            <p className="text-black-50 mb-0">A C#/React app to maintain an IT inventory optimized for smartphones and tablets
+                            <h4><a href="http://jlmdev-inventory-app.herokuapp.com">Inventory App</a></h4>
+                            <p className="text-black-50 mb-0">A C#/React proof of concept app to maintain an IT inventory optimized for smartphones and tablets. While it's intended for use on small devices, it will work on desktop browsers as well.
                             </p>
                         </div>
                     </div>
@@ -93,8 +93,8 @@ function App() {
                         <div className="bg-black text-center h-100 project">
                             <div className="d-flex h-100">
                                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 className="text-white">Misty</h4>
-                                    <p className="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                                    <h4 className="text-white">Reactocats with Hooks</h4>
+                                    <p className="mb-0 text-white-50">This was a fun homework assignment recreating the Octocats images at GitHub. All of these images are theirs. The project uses the API to fetch the data and render it on the page with React with Hooks. The page uses responsive design to change the sizing of the entries based on view width.</p>
                                     <hr className="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -108,8 +108,8 @@ function App() {
                         <div className="bg-black text-center h-100 project">
                             <div className="d-flex h-100">
                                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 className="text-white">Mountains</h4>
-                                    <p className="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                                    <h4 className="text-white"><a href="https://party-like-its-1989-no-hooks-joshmann.netlify.app">Party like it's 1989</a></h4>
+                                    <p className="mb-0 text-white-50">This project uses an API to to connect to themoviedb.org and renders them with React. This assignment uses an '80s theme with retro text and formatting to look like it's from that era. The site also includes a search function to filter the display and features responsive design based on view width.</p>
                                     <hr className="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
@@ -134,16 +134,16 @@ function App() {
             </div>
         </section> */}
         {/* <!-- Contact--> */}
-        <section className="contact-section bg-black">
+        <section className="contact-section bg-black" id="contact">
             <div className="container">
                 <div className="row">
                     <div className="col-md-4 mb-3 mb-md-0">
                         <div className="card py-4 h-100">
                             <div className="card-body text-center">
                                 <i className="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 className="text-uppercase m-0">Address</h4>
+                                <h4 className="text-uppercase m-0">Location</h4>
                                 <hr className="my-4" />
-                                <div className="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div className="small text-black-50">Tampa, Florida</div>
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@ function App() {
                                 <i className="fas fa-envelope text-primary mb-2"></i>
                                 <h4 className="text-uppercase m-0">Email</h4>
                                 <hr className="my-4" />
-                                <div className="small text-black-50"><a href="#!">josh@jlmann.com</a></div>
+                                <div className="small text-black-50"><a href="mailto:josh@jlmann.com">josh@jlmann.com</a></div>
                             </div>
                         </div>
                     </div>
@@ -168,11 +168,11 @@ function App() {
                         </div>
                     </div>
                 </div>
-                <div className="social d-flex justify-content-center">
+                {/* <div className="social d-flex justify-content-center">
                     <a className="mx-2" href="#!"><i className="fab fa-twitter"></i></a>
                     <a className="mx-2" href="#!"><i className="fab fa-facebook-f"></i></a>
                     <a className="mx-2" href="#!"><i className="fab fa-github"></i></a>
-                </div>
+                </div> */}
             </div>
         </section>
         {/* <!-- Footer--> */}
