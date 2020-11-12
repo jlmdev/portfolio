@@ -7,6 +7,9 @@ import bgSignup from './components/img/bg-signup.jpg'
 import ipad from './components/img/ipad.png'
 import demo1 from './components/img/demo-image-01.jpg'
 import demo2 from './components/img/demo-image-02.jpg'
+import inventoryApp from './components/img/InventoryApp.png'
+import reactoCatsHooks from './components/img/ReactoCatsHooks.png'
+import party1989 from './components/img/Party1989.png'
 
 
 function App() {
@@ -17,7 +20,7 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
+        <title>Portfolio</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         {/* <!-- Font Awesome icons (free version)--> */}
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossOrigin="anonymous"></script>
@@ -31,7 +34,7 @@ function App() {
         {/* <!-- Navigation--> */}
         <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div className="container">
-                <a className="navbar-brand js-scroll-trigger" href="#page-top">JLMANN.COM</a>
+                <a className="navbar-brand js-scroll-trigger" href="#page-top">JLMANN</a>
                 <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i className="fas fa-bars"></i>
@@ -74,7 +77,7 @@ function App() {
             <div className="container">
                 {/* <!-- Featured Project Row--> */}
                 <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div className="col-xl-8 col-lg-7"><img className="img-fluid mb-3 mb-lg-0" src={bgMasthead} alt="" /></div>
+                    <div className="col-xl-8 col-lg-7"><img className="img-fluid mb-3 mb-lg-0" src={inventoryApp} alt="" /></div>
                     <div className="col-xl-4 col-lg-5">
                         <div className="featured-text text-center text-lg-left">
                             <h4>Inventory App</h4>
@@ -85,7 +88,7 @@ function App() {
                 </div>
                 {/* <!-- Project One Row--> */}
                 <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div className="col-lg-6"><img className="img-fluid" src={demo1} alt="" /></div>
+                    <div className="col-lg-6"><img className="img-fluid" src={reactoCatsHooks} alt="" /></div>
                     <div className="col-lg-6">
                         <div className="bg-black text-center h-100 project">
                             <div className="d-flex h-100">
@@ -100,7 +103,7 @@ function App() {
                 </div>
                 {/* <!-- Project Two Row--> */}
                 <div className="row justify-content-center no-gutters">
-                    <div className="col-lg-6"><img className="img-fluid" src={demo2} alt="" /></div>
+                    <div className="col-lg-6"><img className="img-fluid" src={party1989} alt="" /></div>
                     <div className="col-lg-6 order-lg-first">
                         <div className="bg-black text-center h-100 project">
                             <div className="d-flex h-100">
@@ -116,7 +119,7 @@ function App() {
             </div>
         </section>
         {/* <!-- Signup--> */}
-        <section className="signup-section" id="signup">
+        {/* <section className="signup-section" id="signup">
             <div className="container">
                 <div className="row">
                     <div className="col-md-10 col-lg-8 mx-auto text-center">
@@ -129,7 +132,7 @@ function App() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
         {/* <!-- Contact--> */}
         <section className="contact-section bg-black">
             <div className="container">
