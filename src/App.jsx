@@ -93,7 +93,7 @@ function App() {
                         <div className="bg-black text-center h-100 project">
                             <div className="d-flex h-100">
                                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 className="text-white">Reactocats with Hooks</h4>
+                                    <h4 className="text-white"><a href="https://reactocats-with-hooks-main-joshmann.netlify.app">Reactocats with Hooks</a></h4>
                                     <p className="mb-0 text-white-50">This was a fun homework assignment recreating the Octocats images at GitHub. All of these images are theirs. The project uses the API to fetch the data and render it on the page with React with Hooks. The page uses responsive design to change the sizing of the entries based on view width.</p>
                                     <hr className="d-none d-lg-block mb-0 ml-0" />
                                 </div>
